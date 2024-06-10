@@ -11,10 +11,10 @@ public class GreaterNumber {
         {
             System.out.println("a is greater");
         }
-        else
+      /*  else
         {
             System.out.println("b is greater");
-        }
+        }*/
 
     }
 }
