@@ -9,12 +9,19 @@ public class SplitDemo2 {
 
         // words that ends with 'y' .
 
-        for(int i=0; i<stArr.length ;i++) {
+        /*for(int i=0; i<stArr.length ;i++) {
 
            String temp = stArr[i];
 
            if(temp.charAt(temp.length() - 1) == 'y')
                System.out.println(stArr[i]);
+        }*/
+
+        for(int i=0; i<stArr.length ;i++) {
+
+
+            if(stArr[i].endsWith("y"))
+                System.out.println(stArr[i]);
         }
 
     }
