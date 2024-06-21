@@ -2,7 +2,10 @@ package ControlStructure;
 
 public class GreaterNumber {
 
+    int z;
+    //System.out.println(z);
     public static void main(String[] args) {
+
 
         int a = 100;
         int b = 100;
