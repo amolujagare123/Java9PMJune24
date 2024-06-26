@@ -38,6 +38,7 @@ class MyChild extends MyParent
         System.out.println("MyChild Constructor");
     }
 
+    @Override
     void sortNames()
     {
         System.out.println("sortNames MyChild");
