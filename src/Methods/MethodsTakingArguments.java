@@ -89,8 +89,6 @@ public class MethodsTakingArguments {
 
         ob.printTwoDArray(myArr);
 
-
-
         MyClass myClass = new MyClass();
 
         ob.setMyClassObject(myClass);
