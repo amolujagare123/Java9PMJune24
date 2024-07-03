@@ -16,10 +16,9 @@ public class MyClass {
     }
 
     int i;
+
     public static void main(String[] args) {
        int i;
-
-
 
         i = 10;
 
