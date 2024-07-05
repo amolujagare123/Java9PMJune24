@@ -28,7 +28,7 @@ class ChildClass extends AbstractClassDemo
 
     public static void main(String[] args) {
 
-        AbstractClassDemo ob = new ChildClass();
+        AbstractClassDemo ob = new ChildClass(); // upcasting
         ob.run();
         ob.start();
         ob.display();
