@@ -3,7 +3,9 @@ package StaticNFinal;
 public class Counter {
 
     static int count = 0;
-
+  /*  static int college = 0;
+    static int a = 0;
+*/
     Counter()
     {
         count++;

@@ -2,7 +2,7 @@ package Inheritance.Polymorphism;
 
 /*final*/ class TVShowroom
 {
-   /* final*/ void channels()
+   /* final*/ public void channels()
     {
         System.out.println("TVShowroom channels");
     }
@@ -13,10 +13,10 @@ package Inheritance.Polymorphism;
 class Samsung extends TVShowroom
 {
 
-    void channels()
+    /*void channels()
     {
         System.out.println("Samsung channels");
-    }
+    }*/
 }
 
 
