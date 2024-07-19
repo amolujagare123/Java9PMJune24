@@ -19,14 +19,19 @@ public class HashmapDemo4 {
         System.out.println(hm.isEmpty());
         System.out.println(hm);
 
-        Set s = hm.keySet();
-        System.out.println("set="+s);
+        Set key = hm.keySet();
+        System.out.println("set="+key);
 
-        Collection c = hm.values();
-        System.out.println("Collection="+c);
+        Collection values = hm.values();
+        System.out.println("Collection="+values);
 
         Set entrySet = hm.entrySet();
         System.out.println("entrySet="+entrySet);
+
+        Object[] keyArr = key.toArray();
+
+        for (int i=0;i<keyArr.length;i++)
+            System.out.println(keyArr[i]);
 
 
 

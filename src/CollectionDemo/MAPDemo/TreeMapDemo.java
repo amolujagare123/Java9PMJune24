@@ -1,23 +1,32 @@
 package CollectionDemo.MAPDemo;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.TreeMap;
+import java.util.Map.Entry;
 
 public class TreeMapDemo {
 
     public static void main(String[] args) {
 
-        TreeMap<Integer,String> lhm = new TreeMap<>();
+        TreeMap<Integer,String> tm = new TreeMap<>();
        
-        lhm.put(103,"AMOL");
-        lhm.put(433,"DIVYA");
-        lhm.put(413,"xyz");
-        lhm.put(233,"NEETHA");
-        lhm.put(567,"KARTHIK");
-        lhm.put(111,"SNEHA");
-        lhm.put(121,"SNEHA");
+        tm.put(103,"AMOL");
+        tm.put(433,"DIVYA");
+        tm.put(413,"xyz");
+        tm.put(233,"NEETHA");
+        tm.put(567,"KARTHIK");
+        tm.put(111,"SNEHA");
+        tm.put(121,"SNEHA");
 
-        System.out.println(lhm);
+        System.out.println(tm);
+
+        for(Entry<Integer,String> entry : tm.entrySet() )
+        {
+            System.out.println("Key="+entry.getKey() +" | value="+entry.getValue());
+        }
+
+
 
 
 
